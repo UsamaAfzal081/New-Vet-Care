@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/rr"
+        tools:ignore="ContentDescription" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Suname"
+        android:layout_centerVertical="true"
+        android:hint="Enter your name "
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:textColorHint="#FFF"
+        android:textStyle="bold"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:background="@drawable/btn_gradient"
+        android:layout_below="@id/imageView1"
+        android:layout_marginTop="40dp"
+
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/SuEmail"
+        android:layout_centerVertical="true"
+        android:hint="Enter your Email"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:textColorHint="#FFF"
+        android:textStyle="bold"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:background="@drawable/btn_gradient"
+        android:layout_below="@id/Suname"
+        android:layout_marginTop="20dp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/SuUsername"
+        android:layout_centerVertical="true"
+        android:hint="Enter your Username"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:textColorHint="#FFF"
+        android:textStyle="bold"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:background="@drawable/btn_gradient"
+        android:layout_below="@id/SuEmail"
+        android:layout_marginTop="20dp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/SuPass"
+        android:layout_centerVertical="true"
+        android:hint="Enter your Password"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:textColorHint="#FFF"
+        android:textStyle="bold"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:background="@drawable/btn_gradient"
+        android:layout_below="@id/SuUsername"
+        android:layout_marginTop="20dp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="login"
+        android:textColor="#FFF"
+        android:textSize="23sp"
+        android:layout_below="@id/SuPass"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/gradient"
+
+
+        tools:ignore="HardcodedText" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

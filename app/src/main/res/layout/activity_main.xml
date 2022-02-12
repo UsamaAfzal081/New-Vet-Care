@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/rr"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/TV_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="MUSIC PLAYER"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/EtUsername"
+        android:layout_centerVertical="true"
+        android:hint="Username"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:textColorHint="#FFF"
+        android:textStyle="bold"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:background="@drawable/btn_gradient"
+
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Etpass"
+        android:layout_centerVertical="true"
+        android:hint="Password"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:textColorHint="#FFF"
+        android:textStyle="bold"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:background="@drawable/btn_gradient"
+        android:layout_below="@id/EtUsername"
+        android:layout_marginTop="20dp"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="login"
+        android:textColor="#FFF"
+        android:textSize="23sp"
+        android:layout_below="@id/Etpass"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_gradient"
+
+
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnSignUP"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Not a user?"
+        android:textColor="#FFF"
+        android:textSize="23sp"
+        android:layout_below="@id/btnLogin"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/btn_gradient"
+
+
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>
