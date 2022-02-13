@@ -10,10 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicPlayer">
         <activity
-            android:name=".SignUp"
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".ContactUs"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
