@@ -117,6 +117,7 @@
             tools:ignore="ButtonStyle,HardcodedText" />
 
         <Button
+            android:id="@+id/btnContactUs"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_marginStart="20dp"
@@ -128,7 +129,6 @@
             tools:ignore="ButtonStyle,HardcodedText" />
 
     </LinearLayout>
-
 
 
 </RelativeLayout>
