@@ -20,12 +20,16 @@
 
         tools:ignore="HardcodedText" />
 
-    <TextView
+    <me.biubiubiu.justifytext.library.JustifyTextView
         android:id="@+id/txtAbout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="150dp"
-        android:text="Welcome to Music Player, your number one source for Music . We're dedicated to providing you the very best regarding the Mp3 and music We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.Sincerely,"
+        android:text="         We will provide some Packages like combinations of essentials things(food/medicines) which a specific
+animal required in initial phase, not just this we will also provide the telemedicine facility by using this the person can
+directly contact to the VET which will provide guidance, we will also provide the Medicine facility, in Short it will be the
+complete application for the Animals lover."
         android:textAlignment="center"
         android:textColor="#FFF"
         android:textSize="26sp"

@@ -7,11 +7,11 @@
     <corners android:radius="30dp"
         />
     <stroke
-        android:color="#FFF"
+        android:color="#E18B0D"
         android:width="3dp"/>
 <gradient
-    android:startColor="@color/START"
-    android:endColor="@color/END"
+    android:startColor="#8C701F"
+    android:endColor="#201E1E"
     android:angle="90"
     />
 
