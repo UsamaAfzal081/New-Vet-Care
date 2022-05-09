@@ -1,7 +1,5 @@
 package com.example.musicplayer;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btnAboutUs=findViewById(R.id.btnAboutUs);
         btnSignUP=findViewById(R.id.btnSignUP);
         btnLogin=findViewById(R.id.btnLogin);
+
         btnSignUP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
