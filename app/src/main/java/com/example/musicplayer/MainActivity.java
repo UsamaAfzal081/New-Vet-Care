@@ -51,12 +51,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-    public Button getBtnLogin() {
-        return btnLogin;
-    }
-
-    public void setBtnLogin(Button btnLogin) {
-        this.btnLogin = btnLogin;
-    }
 }
