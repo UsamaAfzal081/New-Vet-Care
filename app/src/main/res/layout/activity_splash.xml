@@ -28,9 +28,9 @@
         android:foregroundGravity="center_vertical|center|center_horizontal"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="Welcome to VET CARE"
-        android:textStyle="bold"
         android:textColor="#101010"
         android:textSize="24sp"
+        android:textStyle="bold"
         tools:ignore="HardcodedText" />
 
 </RelativeLayout>

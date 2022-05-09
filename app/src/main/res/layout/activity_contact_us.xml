@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/btn_gradient"
-
     tools:context=".ContactUs">
     <TextView
         android:id="@+id/TvContactUs"
