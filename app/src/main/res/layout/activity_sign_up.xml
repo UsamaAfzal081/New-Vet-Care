@@ -90,7 +90,7 @@
         tools:ignore="Autofill,HardcodedText,TextFields" />
 
     <Button
-        android:id="@+id/btnSignUp"
+        android:id="@+id/btnSignUp1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@id/SuPass"
@@ -102,13 +102,5 @@
         android:textColor="#FFF"
         android:textSize="23sp"
         tools:ignore="HardcodedText" />
-
-
-
-
-
-
-
-
 
 </RelativeLayout>

@@ -4,13 +4,23 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
 public class MainActivity extends AppCompatActivity {
     private Button btnSignUP;
     private Button btnAboutUs;
     private Button btnContactUs;
     private Button btnLogin;
-    @Override
+
+
+
+
+
+        @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setContentView(R.layout.activity_main);
@@ -20,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         btnAboutUs=findViewById(R.id.btnAboutUs);
         btnSignUP=findViewById(R.id.btnSignUP);
         btnLogin=findViewById(R.id.btnLogin);
+            EditText username = (EditText)findViewById(R.id.EtUsername);
+            EditText password = (EditText)findViewById(R.id.Etpass);
 
         btnSignUP.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,8 +43,14 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent u = new Intent(MainActivity.this,dashboard.class);
-                startActivity(u);
+                if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+
+                    Toast.makeText(MainActivity.this, "Welcome to dashboard", Toast.LENGTH_LONG).show();
+                    Intent u = new Intent(MainActivity.this,dashboard.class);
+                    startActivity(u);
+                }else{
+                    Toast.makeText(MainActivity.this, "Wrong Username or password", Toast.LENGTH_LONG).show();
+                }
             }
         });
         btnAboutUs.setOnClickListener(new View.OnClickListener() {
@@ -49,5 +67,6 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(in);
             }
         });
+
     }
 }
