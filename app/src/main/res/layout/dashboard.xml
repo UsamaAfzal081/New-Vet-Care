@@ -78,7 +78,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtprofile"
-                                android:text="Profile"
+                                android:text="Medicines"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
@@ -117,7 +117,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtrute"
-                                android:text="Rout"
+                                android:text="Food"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
@@ -125,10 +125,11 @@
                                 android:textColor="#000"
                                 android:layout_below="@+id/rute">
                             </TextView>
+
                             <Button
+                                android:id="@+id/btnrout"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnrout"
                                 android:background="@android:color/transparent"></Button>
                         </RelativeLayout>
 
@@ -163,7 +164,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txthistory"
-                                android:text="History"
+                                android:text="Toys"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
@@ -171,10 +172,11 @@
                                 android:textColor="#000"
                                 android:layout_below="@+id/history">
                             </TextView>
+
                             <Button
+                                android:id="@+id/btnhistory"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnhistory"
                                 android:background="@android:color/transparent"></Button>
                         </RelativeLayout>
 
@@ -201,7 +203,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtfeedback"
-                                android:text="Feedback"
+                                android:text="Products"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
@@ -209,10 +211,11 @@
                                 android:textColor="#000"
                                 android:layout_below="@+id/feedback">
                             </TextView>
+
                             <Button
+                                android:id="@+id/btnfeedbak"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnfeedbak"
                                 android:background="@android:color/transparent"></Button>
                         </RelativeLayout>
 
@@ -246,7 +249,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtsetting"
-                                android:text="Profile"
+                                android:text="Help"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
@@ -285,7 +288,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtsupport"
-                                android:text="Support"
+                                android:text="Vet Service"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
