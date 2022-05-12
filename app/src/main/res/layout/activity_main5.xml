@@ -24,7 +24,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/f" />
+                android:src="@drawable/ppa" />
 
 
             <LinearLayout
@@ -37,7 +37,7 @@
                     android:id="@+id/personName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Leader Adult"
+                    android:text="Pet Collar"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -47,7 +47,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="1.2 kg pack " />
+                    android:text="Collars for dogs and cats" />
 
             </LinearLayout>
 
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:padding="15dp"
-            android:text="Rs 620" />
+            android:text="Rs 100" />
 
 
 
@@ -82,7 +82,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/h" />
+                android:src="@drawable/ppb" />
 
 
             <LinearLayout
@@ -95,7 +95,7 @@
                     android:id="@+id/personName1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Extra Valley"
+                    android:text="Food Tray"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -105,7 +105,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="2 kg pack" />
+                    android:text="6 partition Food Tray" />
 
             </LinearLayout>
 
@@ -118,7 +118,7 @@
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:layout_alignParentRight="true"
-            android:text="Rs 890"/>
+            android:text="Rs 200"/>
 
 
 
@@ -140,7 +140,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/i" />
+                android:src="@drawable/ppc" />
 
 
             <LinearLayout
@@ -153,7 +153,7 @@
                     android:id="@+id/personName2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" Felicia "
+                    android:text=" Litter box "
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -163,7 +163,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text=" 50 gram Tin " />
+                    android:text=" Litter box with litter sand " />
 
             </LinearLayout>
 
@@ -174,9 +174,9 @@
             android:id="@+id/msgtime2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="15dp"
             android:layout_alignParentRight="true"
-            android:text="Rs 240"/>
+            android:padding="15dp"
+            android:text="Rs 500" />
 
 
 
@@ -198,7 +198,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/j" />
+                android:src="@drawable/ppd" />
 
 
             <LinearLayout
@@ -211,7 +211,7 @@
                     android:id="@+id/personName3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Montego Classic"
+                    android:text="Nail trimmer"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -221,7 +221,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="25 kg pack" />
+                    android:text="Iron made pet nail trimmer" />
 
             </LinearLayout>
 
@@ -234,7 +234,7 @@
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:layout_alignParentRight="true"
-            android:text="Rs 1400"/>
+            android:text="Rs 180"/>
 
 
 
@@ -256,7 +256,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/k" />
+                android:src="@drawable/ppe" />
 
 
             <LinearLayout
@@ -269,7 +269,7 @@
                     android:id="@+id/personName4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" Cat Food "
+                    android:text="Carrier"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -279,7 +279,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text=" our locally manufactured cat food " />
+                    android:text=" Aluminium based light weight " />
 
             </LinearLayout>
 
@@ -292,7 +292,7 @@
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:layout_alignParentRight="true"
-            android:text="Rs 900"/>
+            android:text="Rs 1000"/>
 
 
 

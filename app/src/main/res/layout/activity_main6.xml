@@ -8,8 +8,6 @@
     android:background="@drawable/btn_gradient"
     tools:context=".MainActivity6">
 
-
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,7 +37,7 @@
                     android:id="@+id/personName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Leader Adult"
+                    android:text="FAQ"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -49,7 +47,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="1.2 kg pack " />
+                    android:text="Frequently asked Questions over panek" />
 
             </LinearLayout>
 
@@ -62,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:padding="15dp"
-            android:text="Rs 620" />
+            android:text="" />
 
 
 
