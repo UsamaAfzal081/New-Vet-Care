@@ -24,7 +24,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/f" />
+                android:src="@drawable/doc1" />
 
 
             <LinearLayout
@@ -37,7 +37,7 @@
                     android:id="@+id/personName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Leader Adult"
+                    android:text="Ali Abbas"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -47,7 +47,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="1.2 kg pack " />
+                    android:text="+923346629832 | Wapda Town" />
 
             </LinearLayout>
 
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:padding="15dp"
-            android:text="Rs 620" />
+            android:text="Fee: 500 " />
 
 
 
@@ -82,8 +82,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/h" />
-
+                android:src="@drawable/doc2" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -95,7 +94,7 @@
                     android:id="@+id/personName1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Extra Valley"
+                    android:text="Ishfaq Imtiaz"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -105,7 +104,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="2 kg pack" />
+                    android:text="03044615451 | Johar Town" />
 
             </LinearLayout>
 
@@ -116,9 +115,9 @@
             android:id="@+id/msgtime1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="15dp"
             android:layout_alignParentRight="true"
-            android:text="Rs 890"/>
+            android:padding="15dp"
+            android:text="Fee 600" />
 
 
 
@@ -140,7 +139,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/i" />
+                android:src="@drawable/doc3" />
 
 
             <LinearLayout
@@ -153,7 +152,7 @@
                     android:id="@+id/personName2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" Felicia "
+                    android:text=" Umair Ahmad"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -163,7 +162,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text=" 50 gram Tin " />
+                    android:text="+923216434045 | Township " />
 
             </LinearLayout>
 
@@ -174,9 +173,9 @@
             android:id="@+id/msgtime2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="15dp"
             android:layout_alignParentRight="true"
-            android:text="Rs 240"/>
+            android:padding="15dp"
+            android:text="Fee 300" />
 
 
 
@@ -198,7 +197,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/j" />
+                android:src="@drawable/doc5" />
 
 
             <LinearLayout
@@ -211,7 +210,7 @@
                     android:id="@+id/personName3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Montego Classic"
+                    android:text="Abdullah Sehzad"
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -221,7 +220,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="25 kg pack" />
+                    android:text=" +923349396301 | PIA Housing Scheme " />
 
             </LinearLayout>
 
@@ -232,9 +231,9 @@
             android:id="@+id/msgtime3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="15dp"
             android:layout_alignParentRight="true"
-            android:text="Rs 1400"/>
+            android:padding="15dp"
+            android:text="Rs 1000" />
 
 
 
@@ -256,7 +255,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/k" />
+                android:src="@drawable/doc4" />
 
 
             <LinearLayout
@@ -269,7 +268,7 @@
                     android:id="@+id/personName4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" Cat Food "
+                    android:text=" Saklain Azam "
                     android:textColor="@color/black"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -279,7 +278,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text=" our locally manufactured cat food " />
+                    android:text=" +923324426123 | Iqbal Town " />
 
             </LinearLayout>
 
@@ -290,9 +289,9 @@
             android:id="@+id/msgtime4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="15dp"
             android:layout_alignParentRight="true"
-            android:text="Rs 900"/>
+            android:padding="15dp"
+            android:text="Rs 750" />
 
 
 
