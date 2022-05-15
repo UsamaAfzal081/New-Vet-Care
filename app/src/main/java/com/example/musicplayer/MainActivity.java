@@ -43,14 +43,8 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(username.getText().toString().equals("usama5343@gmail.com") && password.getText().toString().equals("admin123")){
-
-                    Toast.makeText(MainActivity.this, "Welcome to dashboard", Toast.LENGTH_LONG).show();
                     Intent u = new Intent(MainActivity.this,dashboard.class);
                     startActivity(u);
-                }else{
-                    Toast.makeText(MainActivity.this, "Wrong Username or password", Toast.LENGTH_LONG).show();
-                }
             }
         });
         btnAboutUs.setOnClickListener(new View.OnClickListener() {
