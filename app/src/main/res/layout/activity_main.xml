@@ -29,7 +29,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/EtUsername"
+        android:id="@+id/EtEmail"
         android:layout_centerVertical="true"
         android:hint="Enter User Name"
         android:textColor="#FFF"
@@ -57,7 +57,7 @@
         android:ellipsize="start"
         android:gravity="center"
         android:background="@drawable/btn_gradient"
-        android:layout_below="@id/EtUsername"
+        android:layout_below="@id/EtEmail"
         android:layout_marginTop="20dp"
         tools:ignore="Autofill,HardcodedText,TextFields" />
 

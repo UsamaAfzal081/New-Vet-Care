@@ -29,12 +29,14 @@ public class SignUp extends AppCompatActivity {
 
         setContentView(R.layout.activity_sign_up);
         btnSignUP1=findViewById(R.id.btnSignUp1);
-        SuEmail=findViewById(R.id.SuEmail);
+
         SuUsername=findViewById(R.id.SuUsername);
+        SuEmail=findViewById(R.id.SuEmail);
         SuPass=findViewById(R.id.SuPass);
         progressDialog=new ProgressDialog(this);
         mAuth=FirebaseAuth.getInstance();
         mUser=mAuth.getCurrentUser();
+
         btnSignUP1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
