@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicPlayer">
         <activity
+            android:name=".Medacc"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity7"
             android:exported="false" />
         <activity
